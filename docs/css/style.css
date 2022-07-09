@@ -349,6 +349,7 @@ html {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin-bottom: 6rem;
 }
 
 #juego-nuevo {
@@ -508,7 +509,7 @@ pantalla agregar palabra
 
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: var(--darkblue-color);
